@@ -1,0 +1,47 @@
+.sessao6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem 0;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: var(--segunda-cor);
+}
+.sessao6 p{
+    text-align: center;
+}
+.sessao6-form{
+    font-size: 15pt;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 70vw;
+}
+.inputGroup{
+    display: flex;
+    gap: 1rem;
+}
+.sessao6-form input, .sessao6-form textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border: none;
+    resize: none;
+    font-size: 15pt;
+    border-bottom: 1px solid #131313;
+    background: transparent;
+    color: var(--segunda-cor);
+}
+.sessao6-form button{
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    background: var(--segunda-cor);
+    color: var(--primeira-cor);
+    padding: 1rem;
+}
+.sessao6-form button:hover{
+    opacity: 0.8;
+}

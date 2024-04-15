@@ -1,0 +1,26 @@
+.sessao5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+.sessao5-left{
+    display: flex;
+    flex-direction: column;
+}
+.sessao5-left img{
+    width: 500px;
+}
+.sessao5-left a{
+    color: var(--segunda-cor);
+    opacity: 0.5;
+}
+.sessao5-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    font-size: 25pt;
+    color: var(--segunda-cor);
+    width: 40rem;
+}

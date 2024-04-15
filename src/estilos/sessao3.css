@@ -1,0 +1,18 @@
+.sessao3{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    gap: 2rem;
+    text-align: left;
+    color: var(--segunda-cor);
+}
+.sessao3 h1{
+    font-size: 40pt;
+}
+.sessao3 p{
+    font-size: 20pt;
+    text-align: justify;
+}
+.sessao3 p::first-letter{
+    font-size: 30pt;
+}

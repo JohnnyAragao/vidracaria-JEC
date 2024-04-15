@@ -1,0 +1,11 @@
+.sessao1{
+    display: flex;
+    padding: 1rem;
+    height: 40rem;
+    background-image: url('../imgs/imagePrincipal.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-clip: content-box;
+    background-attachment: fixed;
+}

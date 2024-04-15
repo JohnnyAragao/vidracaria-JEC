@@ -1,0 +1,16 @@
+.sessao4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sessao4-right img{
+    width: 500px;
+}
+.sessao4-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    font-size: 25pt;
+    color: var(--segunda-cor);
+}
