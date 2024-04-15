@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/estilos/geral.css" />
+    <link rel="stylesheet" href="src/estilos/header.css" />
+    <link rel="stylesheet" href="src/estilos/sessao1.css" />
+    <link rel="stylesheet" href="src/estilos/sessao2.css" />
+    <link rel="stylesheet" href="src/estilos/sessao3.css" />
+    <link rel="stylesheet" href="src/estilos/sessao4.css" />
+    <link rel="stylesheet" href="src/estilos/sessao5.css" />
+    <link rel="stylesheet" href="src/estilos/sessao6.css" />
+    <link rel="stylesheet" href="src/estilos/footer.css" />
+    <title>Vidraçaria J.E.C</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header-titulo">J.E.C Soluções em vidros</h1>
+      <nav>
+        <ol class="header-menu">
+          <li><a href="#paginaInicial">Página inicial</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#agendamento">Agendamento</a></li>
+          <li><a href="#agendamento">Contato</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ol>
+      </nav>
+    </header>
+
+    <section class="sessao1"></section>
+
+    <section class="sessao2" id="servicos">
+      <h1>Principais trabalhos</h1>
+      <div class="sessao2-galeria">
+          <img src="./src/imgs/trabalho1.jfif" />
+          <img src="./src/imgs/trabalho2.jfif" />
+          <img src="./src/imgs/trabalho3.jfif" />
+          <img src="./src/imgs/trabalho4.jfif" />
+      </div>
+    </section>
+
+    <section class="sessao3" id="sobre">
+      <h1>Um pouco sobre nós</h1>
+      <p>
+        Somos uma empresa renomada no ramo de fabricação e instalação de produtos de vidro, oferecendo uma ampla variedade de soluções para clientes residenciais e comerciais. Com anos de experiência, destacamos pela qualidade dos materiais utilizados e pelo compromisso em proporcionar segurança e durabilidade em nossos produtos, que incluem janelas, portas, espelhos, box para banheiro, divisórias e fachadas de vidro. Com um atendimento personalizado e eficiente e consolidado.
+      </p>
+    </section>
+
+    <section class="sessao5">
+        <div class="sessao5-left">
+          <img src="./src/imgs/exemplo1.jfif" alt="imagem de trabalho" />
+        </div>
+        <div class="sessao5-right">
+          <h1>Abordagem profissional</h1>
+          <p>Qualidade marcante</p>
+          <p>
+            Com anos de experiência no mercado, entendemos a importância de oferecer serviços de vidraçaria que não apenas atendam, mas superem as expectativas dos nossos clientes.
+          </p>
+        </div>
+      </section>
+
+    <section class="sessao4">
+      <div class="sessao4-left">
+        <h1>Horário</h1>
+        <p>Abertos para o negócio</p>
+        <p>Seg - sex: 08:00 - 22:00<br />Sábado: 09:00 - 16:00</p>
+      </div>
+      <div class="sessao4-right">
+        <img src="./src/imgs/exemplo2.jfif" alt="imagem de trabalho" />
+      </div>
+    </section>
+
+    <section class="sessao6" id="agendamento">
+      <h1>Orçamento</h1>
+      <p>Solicitação de orçamento<br>ou Agendamento</p>
+      <form action="https://api.staticforms.xyz/submit" method="post" class="sessao6-form">
+        <input type="hidden" name="subject" value="Olá vim pelo site!" />
+        <input type="hidden" name="accessKey" value="dda682cf-2df7-43ae-9439-fc764092ac73"/>
+        <input type="text" name="name" placeholder="Nome" required />
+        <div class="inputGroup">
+            <input type="text" name="email" placeholder="Email" />
+            <input type="text" name="phone" placeholder="Telefone" required />
+        </div>
+        <textarea name="message" placeholder="mensagem" required></textarea>
+        <input type="text" name="honeypot" style="display: none" />
+        <input type="hidden" name="redirectTo" value="https://developersgroup.notion.site/Obrigado-2b76684c5a244098b17f3318a035adbb?pvs=4" />
+        <Button type="submit">Enviar</Button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-left">
+        <p>J.E.C Soluções em vidros</p>
+        <p>(11) 94825-8055</p>
+        <p>joeniltonsantos86@gmail.com</p>
+      </div>
+      <div class="footer-rigth">
+        <p>&copy;2024 DevelopersGroup.</p>
+      </div>
+    </footer>
+  </body>
+</html>
