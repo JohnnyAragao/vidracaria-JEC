@@ -1,0 +1,50 @@
+@media (max-width: 1180px) {
+  /* Sessão 5 */
+  .sessao5-left img {
+    width: 300px;
+  }
+  .sessao5-right {
+    font-size: 20pt;
+    width: 30rem;
+  }
+
+  /* sessão 4 */
+  .sessao4-right img {
+    width: 300px;
+  }
+  .sessao4-left {
+    font-size: 20pt;
+    width: 30rem;
+  }
+}
+@media (max-width: 830px) {
+  /* Header */
+  .header {
+    padding: 1rem 0;
+  }
+  .header-titulo {
+    font-size: 40pt;
+  }
+  /* Sessão 2 */
+  .sessao2-galeria {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .sessao2-galeria img {
+    width: 48%;
+  }
+  /* Sessão 3 */
+  .sessao3 {
+    padding: 4rem 2rem;
+  }
+  /* sessão 4 */
+  .sessao4{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  /* Sessão 5 */
+  .sessao5{
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}
