@@ -17,7 +17,7 @@
     width: 30rem;
   }
 }
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   /* Header */
   .header {
     padding: 1rem 0;
@@ -25,26 +25,41 @@
   .header-titulo {
     font-size: 40pt;
   }
+  .header-menu {
+    gap: 0.5rem;
+  }
+  .header-menu a {
+    font-size: 10pt;
+  }
   /* Sessão 2 */
   .sessao2-galeria {
     gap: 1rem;
     flex-wrap: wrap;
   }
   .sessao2-galeria img {
-    width: 48%;
+    width: 40%;
   }
   /* Sessão 3 */
   .sessao3 {
     padding: 4rem 2rem;
   }
+  .sessao3 p {
+    font-size: 15pt;
+  }
   /* sessão 4 */
-  .sessao4{
+  .sessao4 {
     flex-direction: column;
     gap: 1rem;
   }
+  .sessao4-left {
+    font-size: 18pt;
+  }
   /* Sessão 5 */
-  .sessao5{
+  .sessao5 {
     flex-direction: column-reverse;
     gap: 1rem;
+  }
+  .sessao5-right {
+    padding: 0.3rem 2rem;
   }
 }
