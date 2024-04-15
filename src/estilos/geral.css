@@ -17,4 +17,5 @@
 }
 body{
     background-color: var(--primeira-cor);
+    width: 100vw;
 }
