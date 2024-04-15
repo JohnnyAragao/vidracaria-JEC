@@ -11,10 +11,6 @@
 .sessao5-left img{
     width: 500px;
 }
-.sessao5-left a{
-    color: var(--segunda-cor);
-    opacity: 0.5;
-}
 .sessao5-right{
     display: flex;
     flex-direction: column;
