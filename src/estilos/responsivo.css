@@ -60,6 +60,12 @@
     gap: 1rem;
   }
   .sessao5-right {
+    max-width: 100%;
     padding: 0.3rem 2rem;
+    gap: 20px;
+    display: flex;
+  }
+  .sessao5-right-description{
+    font-size: large;
   }
 }

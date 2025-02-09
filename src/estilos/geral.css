@@ -19,3 +19,9 @@ body{
     background-color: var(--primeira-cor);
     width: 100vw;
 }
+h1{
+    font-size: larger;
+}
+h2{
+    font-size: x-large;
+}
