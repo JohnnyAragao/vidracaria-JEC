@@ -1,4 +1,5 @@
 @media (max-width: 1180px) {
+ 
   /* Sessão 5 */
   .sessao5-left img {
     width: 300px;
@@ -15,6 +16,11 @@
   .sessao4-left {
     font-size: 20pt;
     width: 30rem;
+  }
+}
+@media (max-width: 935px) {
+  h1 {
+      padding: 0 10px; /* Reduz o espaçamento nas laterais */
   }
 }
 @media (max-width: 900px) {
@@ -67,5 +73,12 @@
   }
   .sessao5-right-description{
     font-size: large;
+  }
+  .sessao6{
+    text-align: center;
+  }
+  .footer {
+    font-size: 0.8rem;
+    padding-bottom: 30px;
   }
 }

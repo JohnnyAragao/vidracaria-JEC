@@ -1,13 +1,25 @@
-.footer{
-    display: flex;
-    color: #131313;
-    align-items: center;
-    justify-content: space-around;
-    box-shadow: 0 -0.5rem 0.8rem -1rem var(--segunda-cor);
-    padding: 1rem 0;
-}
-.footer-left{
+.footer {
+    background-color: #222; 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
+.footer-left, .footer-rigth {
+    text-align: center;
+    display: flex;
+    gap: 3rem;
+}
+.footer-left p,
+.footer-rigth p {
+    margin: 5px 0;
+}
+.footer-rigth span {
+    font-weight: bold;
+    color: #f3c611; 
+}
+

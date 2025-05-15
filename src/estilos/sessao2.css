@@ -11,6 +11,9 @@
     padding: 1rem;
     font-size: 40pt;
 }
+.sessao2 h2{
+    padding-bottom: 3rem;
+}
 .sessao2-galeria{
     display: flex;
     justify-content: space-around;
